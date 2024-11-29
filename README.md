@@ -1,2 +1,2 @@
 # PlateRecognizer
-API para ler matriculas de imagens 
+API para ler matriculas de imagens (Scrapers)
