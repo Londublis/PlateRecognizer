@@ -1,0 +1,8 @@
+
+https://guides.platerecognizer.com/docs/snapshot/getting-started/#uninstalling
+
+STEP 1 - UNINSTALL OLD LICENSE KEY
+a)http://localhost:8080/uninstall/ 
+
+STEP 2 - ADD NEW LICENSE KEY
+docker run --restart always -t -p 8080:8080 -v license:/license -e TOKEN=656f837df181c5458012dbff00a29b4bd428b528 -e LICENSE_KEY=nzvnZP8ZQx platerecognizer/alpr
